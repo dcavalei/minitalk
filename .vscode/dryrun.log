@@ -1,0 +1,15 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/dcavalei/Desktop/minitalk'
+make -C libs/libft/
+make[1]: Entering directory '/home/dcavalei/Desktop/minitalk/libs/libft'
+ 
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/dcavalei/Desktop/minitalk/libs/libft'
+ 
+gcc -o server -Wall -Wextra -Werror -Iinclude libs/libft/libft.a src/server.o src/utils.o
+echo "Creating object: src/client.o"
+gcc -Wall -Wextra -Werror -Iinclude -c src/client.c -o src/client.o
+ 
+gcc -o client -Wall -Wextra -Werror -Iinclude libs/libft/libft.a src/client.o src/utils.o
+make: Leaving directory '/home/dcavalei/Desktop/minitalk'
+ 

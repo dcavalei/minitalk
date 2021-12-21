@@ -6,7 +6,7 @@
 /*   By: dcavalei <dcavalei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/14 13:31:21 by dcavalei          #+#    #+#             */
-/*   Updated: 2021/06/16 18:26:54 by dcavalei         ###   ########.fr       */
+/*   Updated: 2021/12/20 20:40:02 by dcavalei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include "libft.h"
 # include <signal.h>
-# include <errno.h> 
+# include <errno.h>
 
 # define MAX_CHARS 4096
 # define MAX_BITS_PER_CHAR 8

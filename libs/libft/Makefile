@@ -6,11 +6,11 @@
 #    By: dcavalei <dcavalei@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/17 14:49:14 by dcavalei          #+#    #+#              #
-#    Updated: 2021/04/20 13:10:50 by dcavalei         ###   ########.fr        #
+#    Updated: 2021/12/20 20:38:56 by dcavalei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRC			= ${wildcard  *.c}
+SRC			= $(shell find . -type f -name "*.c")
 OBJS		= ${SRC:.c=.o}
 CC			= gcc
 CFLAGS		= -Wall -Wextra -Werror

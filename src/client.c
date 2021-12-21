@@ -6,11 +6,12 @@
 /*   By: dcavalei <dcavalei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/15 16:13:50 by dcavalei          #+#    #+#             */
-/*   Updated: 2021/06/17 14:26:35 by dcavalei         ###   ########.fr       */
+/*   Updated: 2021/12/20 20:34:55 by dcavalei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minitalk.h"
+#include "libft.h"
 
 int	main(int argc, char **argv)
 {

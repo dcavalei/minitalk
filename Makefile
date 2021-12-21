@@ -6,7 +6,7 @@
 #    By: dcavalei <dcavalei@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/06/14 12:48:35 by dcavalei          #+#    #+#              #
-#    Updated: 2021/06/17 13:24:29 by dcavalei         ###   ########.fr        #
+#    Updated: 2021/12/21 11:34:18 by dcavalei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,13 +29,14 @@ libft:
 			@$(MAKE) -C libs/libft/
 
 $(NAME_SERVER):	libft $(OBJS_SERVER)
-			@$(CC) -o $(NAME_SERVER) $(CFLAGS) $(INCLUDE) $(LIB) $(OBJS_SERVER)
-			
+			$(CC) -o $(NAME_SERVER) $(CFLAGS) -Iinclude $(OBJS_SERVER) $(LIB)
+
 $(NAME_CLIENT):	libft $(OBJS_CLIENT)
-			@$(CC) -o $(NAME_CLIENT) $(CFLAGS) $(INCLUDE) $(LIB) $(OBJS_CLIENT)
+			$(CC) -o $(NAME_CLIENT) $(CFLAGS) -Iinclude $(OBJS_CLIENT) $(LIB)
+
 .c.o:
 			@echo "Creating object: $@"
-			@$(CC) $(CFLAGS) $(INCLUDE) -c $< -o $@
+			$(CC) $(CFLAGS) -Iinclude -c $< -o $@
 
 clean:
 			@rm -f $(OBJS)

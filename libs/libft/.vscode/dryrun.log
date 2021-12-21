@@ -1,0 +1,102 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/dcavalei/Desktop/minitalk/libs/libft'
+echo "Creating object file: ft_lstmap.o"
+gcc -Wall -Wextra -Werror -c ft_lstmap.c -o ft_lstmap.o -Iincludes
+echo "Creating object file: ft_toupper.o"
+gcc -Wall -Wextra -Werror -c ft_toupper.c -o ft_toupper.o -Iincludes
+echo "Creating object file: ft_strtrim.o"
+gcc -Wall -Wextra -Werror -c ft_strtrim.c -o ft_strtrim.o -Iincludes
+echo "Creating object file: ft_putchar_fd.o"
+gcc -Wall -Wextra -Werror -c ft_putchar_fd.c -o ft_putchar_fd.o -Iincludes
+echo "Creating object file: ft_lstclear.o"
+gcc -Wall -Wextra -Werror -c ft_lstclear.c -o ft_lstclear.o -Iincludes
+echo "Creating object file: ft_substr.o"
+gcc -Wall -Wextra -Werror -c ft_substr.c -o ft_substr.o -Iincludes
+echo "Creating object file: ft_memset.o"
+gcc -Wall -Wextra -Werror -c ft_memset.c -o ft_memset.o -Iincludes
+echo "Creating object file: ft_calloc.o"
+gcc -Wall -Wextra -Werror -c ft_calloc.c -o ft_calloc.o -Iincludes
+echo "Creating object file: ft_isspace.o"
+gcc -Wall -Wextra -Werror -c ft_isspace.c -o ft_isspace.o -Iincludes
+echo "Creating object file: ft_lstiter.o"
+gcc -Wall -Wextra -Werror -c ft_lstiter.c -o ft_lstiter.o -Iincludes
+echo "Creating object file: ft_strmapi.o"
+gcc -Wall -Wextra -Werror -c ft_strmapi.c -o ft_strmapi.o -Iincludes
+echo "Creating object file: ft_bzero.o"
+gcc -Wall -Wextra -Werror -c ft_bzero.c -o ft_bzero.o -Iincludes
+echo "Creating object file: ft_get_next_line.o"
+gcc -Wall -Wextra -Werror -c ft_get_next_line.c -o ft_get_next_line.o -Iincludes
+echo "Creating object file: ft_putendl_fd.o"
+gcc -Wall -Wextra -Werror -c ft_putendl_fd.c -o ft_putendl_fd.o -Iincludes
+echo "Creating object file: ft_strlcat.o"
+gcc -Wall -Wextra -Werror -c ft_strlcat.c -o ft_strlcat.o -Iincludes
+echo "Creating object file: ft_memchr.o"
+gcc -Wall -Wextra -Werror -c ft_memchr.c -o ft_memchr.o -Iincludes
+echo "Creating object file: ft_putnbr_base_fd.o"
+gcc -Wall -Wextra -Werror -c ft_putnbr_base_fd.c -o ft_putnbr_base_fd.o -Iincludes
+echo "Creating object file: ft_lstlast.o"
+gcc -Wall -Wextra -Werror -c ft_lstlast.c -o ft_lstlast.o -Iincludes
+echo "Creating object file: ft_lstadd_back.o"
+gcc -Wall -Wextra -Werror -c ft_lstadd_back.c -o ft_lstadd_back.o -Iincludes
+echo "Creating object file: ft_strlcpy.o"
+gcc -Wall -Wextra -Werror -c ft_strlcpy.c -o ft_strlcpy.o -Iincludes
+echo "Creating object file: ft_putstr_fd.o"
+gcc -Wall -Wextra -Werror -c ft_putstr_fd.c -o ft_putstr_fd.o -Iincludes
+echo "Creating object file: ft_lstdelone.o"
+gcc -Wall -Wextra -Werror -c ft_lstdelone.c -o ft_lstdelone.o -Iincludes
+echo "Creating object file: ft_putnbr_fd.o"
+gcc -Wall -Wextra -Werror -c ft_putnbr_fd.c -o ft_putnbr_fd.o -Iincludes
+echo "Creating object file: ft_strdup.o"
+gcc -Wall -Wextra -Werror -c ft_strdup.c -o ft_strdup.o -Iincludes
+echo "Creating object file: ft_strjoin.o"
+gcc -Wall -Wextra -Werror -c ft_strjoin.c -o ft_strjoin.o -Iincludes
+echo "Creating object file: ft_isdigit.o"
+gcc -Wall -Wextra -Werror -c ft_isdigit.c -o ft_isdigit.o -Iincludes
+echo "Creating object file: ft_memmove.o"
+gcc -Wall -Wextra -Werror -c ft_memmove.c -o ft_memmove.o -Iincludes
+echo "Creating object file: ft_memccpy.o"
+gcc -Wall -Wextra -Werror -c ft_memccpy.c -o ft_memccpy.o -Iincludes
+echo "Creating object file: ft_split.o"
+gcc -Wall -Wextra -Werror -c ft_split.c -o ft_split.o -Iincludes
+echo "Creating object file: ft_lstadd_front.o"
+gcc -Wall -Wextra -Werror -c ft_lstadd_front.c -o ft_lstadd_front.o -Iincludes
+echo "Creating object file: ft_strrchr.o"
+gcc -Wall -Wextra -Werror -c ft_strrchr.c -o ft_strrchr.o -Iincludes
+echo "Creating object file: ft_isascii.o"
+gcc -Wall -Wextra -Werror -c ft_isascii.c -o ft_isascii.o -Iincludes
+echo "Creating object file: ft_strlen.o"
+gcc -Wall -Wextra -Werror -c ft_strlen.c -o ft_strlen.o -Iincludes
+echo "Creating object file: ft_memcmp.o"
+gcc -Wall -Wextra -Werror -c ft_memcmp.c -o ft_memcmp.o -Iincludes
+echo "Creating object file: ft_lstsize.o"
+gcc -Wall -Wextra -Werror -c ft_lstsize.c -o ft_lstsize.o -Iincludes
+echo "Creating object file: ft_isalnum.o"
+gcc -Wall -Wextra -Werror -c ft_isalnum.c -o ft_isalnum.o -Iincludes
+echo "Creating object file: ft_atoi.o"
+gcc -Wall -Wextra -Werror -c ft_atoi.c -o ft_atoi.o -Iincludes
+echo "Creating object file: ft_memcpy.o"
+gcc -Wall -Wextra -Werror -c ft_memcpy.c -o ft_memcpy.o -Iincludes
+echo "Creating object file: ft_isalpha.o"
+gcc -Wall -Wextra -Werror -c ft_isalpha.c -o ft_isalpha.o -Iincludes
+echo "Creating object file: ft_lstnew.o"
+gcc -Wall -Wextra -Werror -c ft_lstnew.c -o ft_lstnew.o -Iincludes
+echo "Creating object file: ft_strnstr.o"
+gcc -Wall -Wextra -Werror -c ft_strnstr.c -o ft_strnstr.o -Iincludes
+echo "Creating object file: ft_strchr.o"
+gcc -Wall -Wextra -Werror -c ft_strchr.c -o ft_strchr.o -Iincludes
+echo "Creating object file: ft_itoa.o"
+gcc -Wall -Wextra -Werror -c ft_itoa.c -o ft_itoa.o -Iincludes
+echo "Creating object file: ft_tolower.o"
+gcc -Wall -Wextra -Werror -c ft_tolower.c -o ft_tolower.o -Iincludes
+echo "Creating object file: ft_isprint.o"
+gcc -Wall -Wextra -Werror -c ft_isprint.c -o ft_isprint.o -Iincludes
+echo "Creating object file: ft_free_machine.o"
+gcc -Wall -Wextra -Werror -c ft_free_machine.c -o ft_free_machine.o -Iincludes
+echo "Creating object file: ft_strncmp.o"
+gcc -Wall -Wextra -Werror -c ft_strncmp.c -o ft_strncmp.o -Iincludes
+echo "Creating object file: ft_atol.o"
+gcc -Wall -Wextra -Werror -c ft_atol.c -o ft_atol.o -Iincludes
+echo "\033[1;33mCompiling:\033[0m libft.a"
+ar -rcs libft.a ft_lstmap.o ft_strlcpy.o ft_memset.o ft_lstlast.o ft_isspace.o ft_isdigit.o ft_strlen.o ft_memcmp.o ft_lstsize.o ft_itoa.o ft_memcpy.o ft_substr.o ft_calloc.o ft_lstiter.o ft_strmapi.o ft_putendl_fd.o ft_lstadd_back.o ft_putnbr_fd.o ft_split.o ft_atoi.o ft_strtrim.o ft_free_machine.o ft_lstnew.o ft_lstclear.o ft_atol.o ft_putnbr_base_fd.o ft_get_next_line.o ft_isalpha.o ft_memccpy.o ft_putstr_fd.o ft_strnstr.o ft_isascii.o ft_isprint.o ft_bzero.o ft_toupper.o ft_strlcat.o ft_strchr.o ft_memmove.o ft_lstdelone.o ft_strdup.o ft_lstadd_front.o ft_strjoin.o ft_strrchr.o ft_isalnum.o ft_memchr.o ft_tolower.o ft_strncmp.o ft_putchar_fd.o
+make: Leaving directory '/home/dcavalei/Desktop/minitalk/libs/libft'
+ 

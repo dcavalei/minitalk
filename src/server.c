@@ -6,11 +6,12 @@
 /*   By: dcavalei <dcavalei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/14 13:30:19 by dcavalei          #+#    #+#             */
-/*   Updated: 2021/06/17 14:37:55 by dcavalei         ###   ########.fr       */
+/*   Updated: 2021/12/20 20:35:04 by dcavalei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minitalk.h"
+#include "libft.h"
 
 t_data	g_data;
 
